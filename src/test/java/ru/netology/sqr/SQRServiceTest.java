@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class SQRServiceTest {
 
     @Test
-    public void test () {
+    public void test() {
         SQRService service = new SQRService();
         int actual = service.calculate(200, 300);
 
@@ -17,7 +17,7 @@ public class SQRServiceTest {
     }
 
     @Test
-    public void testzero () {
+    public void testzero() {
         SQRService service = new SQRService();
         int actual = service.calculate(0, 0);
 

@@ -8,11 +8,13 @@ public class SQRService {
         for (int i = 10; i <= 99; i++) {
             ii = i * i;
             if (ii >= min) {
-                count++;
+                if (ii <= max) {
+                    count++;
+                }
             }
+
         }
         return count;
+
     }
-
-
 }
